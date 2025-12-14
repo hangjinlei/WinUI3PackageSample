@@ -57,6 +57,15 @@
                   </com:ExeServer>
               </com:ComServer>
           </com:Extension>
+        <desktop:Extension
+          Category="windows.startupTask"
+          Executable="WinUITemplateStudio.exe"
+          EntryPoint="Windows.FullTrustApplication">
+          <desktop:StartupTask
+            TaskId="WinUITemplateStudio"
+            Enabled="true"
+            DisplayName="WinUITemplateStudio" />
+          </desktop:Extension>
       </Extensions>
     </Application>
   </Applications>
